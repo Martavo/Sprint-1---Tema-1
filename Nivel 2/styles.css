@@ -1,0 +1,147 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cabecera {
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    background-color: black;
+    width: 95%; 
+    height: 227px;
+    position: relative;
+    margin: auto; /* Centra la cabecera */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: rgb(32, 31, 30);
+    padding: 15px;
+    margin: 10px;
+    position: relative; 
+}
+
+.logo,
+.navegacion,
+.redes-sociales {
+    margin: 0 10px;
+}
+
+.botones-nav {
+    margin: 0 20px;
+    color: rgb(197, 192, 192);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.botones-nav:hover {
+    color: rgb(47, 43, 40);
+}
+
+.botones-nav i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.div2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 24px;
+    color: rgb(240, 138, 50);
+    margin: 50px; 
+}
+
+.bloque-gris {
+    position: absolute;
+    top:35%;
+    left: 8%; /* Ajusta según sea necesario */
+    right: 10%; /* Ajusta según sea necesario */
+    height: 80px;
+    width: 620px;
+    background-color: rgba(169, 169, 169, 0.7); /* Color gris con opacidad 0.7 */
+    z-index: 0;
+}
+
+.section2,
+.section3 {
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+}
+
+.div4 {
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 15px;
+    margin: 10px;
+}
+
+.div3,
+.div4 {
+    width: 70%;
+}
+
+.div3a,
+.div3b,
+.div3c {
+    display: flex;
+}
+
+.p4,
+.p5,
+.p6,
+.p7 {
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .section2 {
+        background-color: yellow;
+        display: block;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .div3,
+    .div4 {
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .div1,
+    .div2,
+    .div3,
+    .div3a,
+    .div3b,
+    .div3c,
+    .div4 {
+        display: block;
+    }
+
+    .p1,
+    .p2,
+    .p3,
+    .p4,
+    .p5,
+    .p6 {
+        width: auto;
+    }
+
+    .section2 {
+        background-color: pink;
+    }
+}
