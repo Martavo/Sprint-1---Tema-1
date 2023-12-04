@@ -4,7 +4,6 @@ body {
 }
 section {
     justify-content: space-between;
-    background-color: black;
     padding: 30px;
     margin: 20px;
 }
@@ -16,9 +15,6 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
-    justify-content: space-between;
-    background-color: black;
-    padding: 30px;
     margin: 10px 20px;
 }
 .cabecera { 
@@ -47,7 +43,7 @@ section {
     transition: color 0.3s; 
 }
 .botones-nav:hover {
-    color: rgb(233, 148, 137);
+    color: rgb(230, 201, 198);
 }
 .botones-nav i { 
     font-size: 20px; 
@@ -62,7 +58,7 @@ section {
 
 }
 .redes-sociales:hover {
-    color: rgb(233, 148, 137);
+    color: rgb(230, 201, 198);
 }
 .div1 { 
     justify-content: space-between; 
@@ -139,14 +135,14 @@ section {
 }
 .titulo-paragrafo {
     width: auto; 
-    background-color: rgb(233,116,101);
+    background-color: rgb(214, 110, 96);
     color: white; 
     text-align: left; 
     padding: 10px; 
 }
 .paragrafo {
     column-count: 2; 
-    column-gap: 10px; 
+    column-gap: 8px; 
 }
 .negrita {
     font-weight: bold;
