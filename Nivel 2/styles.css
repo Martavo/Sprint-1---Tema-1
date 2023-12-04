@@ -15,17 +15,17 @@ section {
     background-image: url('images/header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; /* Centra la imagen tanto horizontal como verticalmente */
+    background-position: center center; 
     justify-content: space-between;
     background-color: black;
     padding: 30px;
     margin: 10px 20px;
 }
-.cabecera { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
-    justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
+.cabecera { 
+    justify-content: space-between; 
     align-items: center;
     background-color: transparent;
-    padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
+    padding: 15px 15px; 
     margin: 10px;
 }
 .logo {
@@ -44,14 +44,14 @@ section {
     margin: 0 20px;
     color: gray;
     text-decoration: none;
-    transition: color 0.3s; /*hacemos que el cambio de color no sea brusco*/
+    transition: color 0.3s; 
 }
 .botones-nav:hover {
-    color: rgb(215, 131, 120);
+    color: rgb(233, 148, 137);
 }
-.botones-nav i { /* esta clase se aplica a los elementos i (iconos)*/
-    font-size: 20px; /* el tamaño del texto */
-    margin-right: 5px; /* el espacio entre icono y su respectivo texto*/    
+.botones-nav i { 
+    font-size: 20px; 
+    margin-right: 5px; 
 }
 .redes-sociales {
     display: flex;
@@ -59,15 +59,15 @@ section {
     font-size: 24px;
     color: gray;
     text-decoration: none;
-    transition: color 0.3s; /*hacemos que el cambio de color no sea brusco*/
+
 }
 .redes-sociales:hover {
-    color: rgb(215, 131, 120);
+    color: rgb(233, 148, 137);
 }
-.div2 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
-    justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
+.div1 { 
+    justify-content: space-between; 
     background-color: transparent;
-    padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
+    padding: 15px 15px; 
     margin: 10px;
 }
 .texto1 {
@@ -85,32 +85,37 @@ section {
     padding: 5px;
     margin: 10px 20px;
 }
-.div3 {
+.div2 {
     justify-content: space-between; 
-    background-color: rgb(227, 224, 224);
-    padding: 15px 15px;
+    background-color: rgb(188, 187, 187);;
+    padding: -1px 1px;
     margin: 10px;
     width: 70%;
 }
-.div3a {
+.div2a {
     display: flex;
 }
-.div3b {
+
+.div2b {
     display: flex;
 }
-.div3c {
+
+.div2c {
     display: flex;
+    
 }
-.div4 {
+
+.div3 {
     justify-content: space-around;
-    background-color: rgb(227, 224, 224);
-    padding: 15px 15px;
+    background-color: rgb(201, 200, 200);;
+    padding: 20px 15px;
     margin: 10px;
     width: 30%;
 }
+
 .container1 {
     justify-content: center;
-    background: rgb(188, 187, 187);
+    background: rgb(230, 221, 221);
     padding: 15px;
     margin: 10px;
     width: 50%;
@@ -133,15 +138,15 @@ section {
     padding: 5px;
 }
 .titulo-paragrafo {
-    width: auto; /* Asegura que tenga el mismo ancho que la foto */
+    width: auto; 
     background-color: rgb(233,116,101);
-    color: white; /* Color del texto */
-    text-align: left; /* Centra el texto horizontalmente */
-    padding: 10px; /* Espaciado interior */
+    color: white; 
+    text-align: left; 
+    padding: 10px; 
 }
 .paragrafo {
-    column-count: 2; /*esto controla el numero de columnas para el texto*/
-    column-gap: 10px; /*aqui controlamos el espacio entre columnas*/
+    column-count: 2; 
+    column-gap: 10px; 
 }
 .negrita {
     font-weight: bold;
@@ -149,7 +154,6 @@ section {
 .texto2 {
     background: transparent;
     text-align: center;
-    font-weight: bold;
     padding: 15px;
     margin: 10px;
     width: 100%;
@@ -176,32 +180,32 @@ section {
     padding: 15px;
     margin: 10px;
 }
-@media (max-width: 1024px) { /*version tablet*/
+@media (max-width: 1024px) { 
     .cabecera {
         flex-direction: column;
-        align-items: flex-start; /*alineamos a la izquierda*/
+        align-items: flex-start; 
     }
     .navegacion {
         flex-direction: column;
     }
     .botones-nav {
-        margin: 10px 0; /*ponemos un espacio de 10px arriba y abajo entre los elementos del menu*/
-        text-align: center; /*centramos el texto del botón*/
+        margin: 10px 0; 
+        text-align: center; 
         width: 100%; 
     }
-    .section2 {
+    .bloque2 {
         background-color: rgb(188, 187, 187);
-        display: block; /* cambiamos a block para que los elementos aparezcan en columna*/
+        display: block; 
         padding: 5px;
         margin: 10px 20px;
     }
-    .div3 {
+    .div2 {
         justify-content: space-between; 
         padding: 15px 15px;
         margin: 10px;
         width: auto;
     }
-    .div4 {
+    .div3 {
         justify-content: space-around;
         padding: 15px 15px;
         margin: 10px;
@@ -217,42 +221,42 @@ section {
         flex-direction: column;
     }
     .botones-nav {
-        margin: 10px 0; /*ponemos un espacio de 10px arriba y abajo entre los elementos del menu*/
-        text-align: center; /*centramos el texto del botón*/
+        margin: 10px 0; 
+        text-align: center;
         width: 100%; 
     }
-    .div2 {
+    .div1 {
         display: block;
     }
-    .p3 {
+    .texto1 {
         background:transparent;
         padding: 15px;
         margin: 15px;
         width: auto;
     }
-    .div3 {
+    .div2 {
         background-color: rgb(227, 224, 224);
         padding: 15px 15px;
         margin: 10px;
         width: auto;
     }
-    .div3a {
+    .div2a {
         display: block;
     }
-    .div3b {
+    .div2b {
         display: block;
     }
-    .p4 {
+    .container1 {
         background: rgb(188, 187, 187);
         padding: 15px;
         margin: 10px;
         width: auto;
     }
-    .div3c {
+    .div2c {
         display: block;
         width: auto;
     }
-    .p5 {
+    .texto2 {
         background: transparent;
         padding: 15px;
         margin: 10px;
