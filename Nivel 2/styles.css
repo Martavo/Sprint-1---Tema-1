@@ -31,8 +31,16 @@ header {
     margin: 0 10px;
 }
 
+.iconos-botones {
+    margin-right: -50px; /* Ajusta según sea necesario para acercar los iconos a los botones */
+    margin-left: 5px;
+}
+
+
 .botones-nav {
-    margin: 0 20px;
+    margin: 0 55px;
+    margin-left: 1px;
+    margin-right: 105px;   
     color: rgb(197, 192, 192);
     text-decoration: none;
     transition: color 0.3s;
@@ -66,46 +74,77 @@ header {
     position: absolute;
     top:35%;
     left: 8%; /* Ajusta según sea necesario */
-    right: 10%; /* Ajusta según sea necesario */
+    right: 45%; /* Ajusta según sea necesario */
     height: 80px;
-    width: 620px;
-    background-color: rgba(169, 169, 169, 0.7); /* Color gris con opacidad 0.7 */
+    width: 1020px;
+    background-color: rgba(169, 169, 169, 0.3); /* Color gris con opacidad 0.7 */
     z-index: 0;
 }
 
-.section2,
-.section3 {
-    justify-content: space-between;
-    padding: 30px;
-    margin: 20px;
+.bloque2 {
+    display: flex;
+    align-items: flex-start;
+    
 }
 
-.div4 {
-    justify-content: space-between;
-    background-color: transparent;
+.fila3{
+    width: 70%; /* Ajusta según tus necesidades */
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Ajusta según tus necesidades */
+    align-items: start;
+    margin-top: 10px;
+    background-color: rgb(232, 233, 237);
     padding: 15px;
-    margin: 10px;
+    border: 10px solid rgb(209, 209, 201);
+    
 }
 
-.div3,
-.div4 {
+.container3 {
+    border: 10px solid rgb(209, 209, 201);
+    margin-bottom: 3%;
+    width: 85%;
+    height: 90%;
+    margin-left: 5px;
+    
+}
+
+.container4 {
+    border: 10px solid rgb(152, 206, 206);
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
     width: 70%;
 }
 
-.div3a,
-.div3b,
-.div3c {
+.fila4 {
+    width: 30%; /* Ajusta según tus necesidades */
+    height: 735px;
+    margin-top: 10px;
+    margin-left: 5px; /* Ajusta según tus necesidades */
     display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 201);
+    padding: 30px 15px;
+    border: 10px solid rgb(209, 209, 201);
 }
 
-.p4,
-.p5,
-.p6,
-.p7 {
-    padding: 15px;
-    margin: 10px;
-    width: 100%;
+.text6 {
+    padding: 10px;
+    margin: -10px;
+    width: 85%;
+    
 }
+
+.bloque3{
+    width: auto;
+    margin-top: 15px;
+    background-color: rgb(199, 132, 24);
+    padding: 10px;
+    border: 20px solid black;
+} 
+
 
 @media (max-width: 1024px) {
     .section2 {
